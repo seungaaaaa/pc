@@ -24,6 +24,7 @@ header {
     left: 20px;
     color: white;
     text-shadow: 0 0 20px #F48FB1;
+    max-width: 200px;
 }
 
 .main-info {
