@@ -57,7 +57,7 @@ async function getHelpData() {
     // 요청하기 버튼
     submitBtn.addEventListener('click', () => {
         alert('요청이 완료 되었습니다')
-        location.href = 'pages.customer/main.html'
+        location.href = 'pages/customer/main.html'
     })
 
     // 도움말 버튼 만들기
