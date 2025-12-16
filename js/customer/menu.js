@@ -90,9 +90,9 @@ getMenuData()
 
 // 메인으로 나가기
 let xBtn = document.querySelector('.menu-xBtn')
-xBtn.addEventListener('click', () => location.href = 'pages/customer/main.html')
+xBtn.addEventListener('click', () => location.href = 'main.html')
 let logo = document.querySelector('.logo')
-logo.addEventListener('click', () => location.href = 'pages/customer/main.html')
+logo.addEventListener('click', () => location.href = 'main.html')
 
 // 메뉴 목록 조회 리스트 만들기
 function sideList() {
