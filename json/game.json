@@ -1,0 +1,102 @@
+[
+    {
+        "title": "마인크래프트",
+        "image": "/assets/img/game/minecraft.webp",
+        "description": "블록으로 이루어진 세계에서 자유롭게 건설하고 생존하는 샌드박스 대표작."
+    },
+    {
+        "title": "GTA 5",
+        "image": "/assets/img/game/gta5.png",
+        "description": "광대한 오픈월드를 배경으로 자유로운 범죄 액션을 즐길 수 있는 인기 게임."
+    },
+    {
+        "title": "배틀그라운드",
+        "image": "/assets/img/game/pubg.jpg",
+        "description": "최후의 1인을 가리는 현실적인 배틀로얄 슈팅 게임."
+    },
+    {
+        "title": "리그 오브 레전드",
+        "image": "/assets/img/game/lol.png",
+        "description": "전 세계적으로 가장 인기 있는 MOBA 게임. 5:5 팀 전략 대전."
+    },
+    {
+        "title": "발로란트",
+        "image": "/assets/img/game/valorant.jpg",
+        "description": "전술 슈팅과 캐릭터 스킬을 결합한 FPS."
+    },
+    {
+        "title": "어몽어스",
+        "image": "/assets/img/game/amongus.webp",
+        "description": "임포스터를 찾아내는 소셜 추리 게임."
+    },
+    {
+        "title": "서든어택",
+        "image": "/assets/img/game/suddenattack.jpg",
+        "description": "국내에서 오랜 기간 사랑받아온 대표적인 온라인 FPS 게임."
+    },
+    {
+        "title": "갓 오브 워",
+        "image": "/assets/img/game/godofwar.avif",
+        "description": "북유럽 신화를 배경으로 하는 영화 같은 액션 어드벤처."
+    },
+    {
+        "title": "레드 데드 리뎀션 2",
+        "image": "/assets/img/game/rdr2.jpg",
+        "description": "서부 시대를 사실적으로 묘사한 대작 오픈월드 스토리 게임."
+    },
+    {
+        "title": "콜 오브 듀티: 모던 워페어",
+        "image": "/assets/img/game/cod.jpg",
+        "description": "사실적인 전투와 몰입감 높은 FPS 캠페인이 장점."
+    },
+    {
+        "title": "오버워치 2",
+        "image": "/assets/img/game/overwatch.png",
+        "description": "개성 있는 영웅들로 팀 전략 플레이를 즐기는 FPS."
+    },
+    {
+        "title": "젤다의 전설: 브레스 오브 더 와일드",
+        "image": "/assets/img/game/zelda.jpg",
+        "description": "광활한 오픈월드를 자유롭게 탐험하며 퍼즐과 전투를 즐기는 액션 어드벤처."
+    },
+    {
+        "title": "엘든 링",
+        "image": "/assets/img/game/eldenring.jpg",
+        "description": "소울류 특유의 난이도와 광대한 필드를 결합한 오픈월드 RPG."
+    },
+    {
+        "title": "호그와트 레거시",
+        "image": "/assets/img/game/hogwarts.jpg",
+        "description": "해리포터 세계관 속에서 마법사 생활을 즐길 수 있는 오픈월드 RPG."
+    },
+    {
+        "title": "사이버펑크 2077",
+        "image": "/assets/img/game/cyberpunk2077.jpg",
+        "description": "미래 도시 나이트시티를 배경으로 한 SF 액션 RPG."
+    },
+    {
+        "title": "카트라이더",
+        "image": "/assets/img/game/kart.jpg",
+        "description": "빠른 템포의 아이템 레이싱 게임으로 전 연령층에게 인기."
+    },
+    {
+        "title": "포트나이트",
+        "image": "/assets/img/game/fortnite.jpg",
+        "description": "건설과 전투를 결합한 배틀로얄 장르의 글로벌 인기 게임."
+    },
+    {
+        "title": "원신",
+        "image": "/assets/img/game/genshin.jpg",
+        "description": "판타지 세계 테이바트를 탐험하는 오픈월드 액션 RPG."
+    },
+    {
+        "title": "스타듀 밸리",
+        "image": "/assets/img/game/stardewvalley.webp",
+        "description": "농사와 교류를 즐기는 힐링 농장 시뮬레이션."
+    },
+    {
+        "title": "데드 바이 데이라이트",
+        "image": "/assets/img/game/dbd.webp",
+        "description": "살인마 1명 vs 생존자 4명의 비대칭 공포 생존 게임."
+    }
+]

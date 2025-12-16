@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/admin/main.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Seunga PC</div>
+        <nav>
+            <button class="seatBtn on">좌석현황</button>
+            <button class="orderBtn">주문관리</button>
+        </nav>
+    </header>
+    <main>
+        <section class="section admin-seat on">
+            <div class="seat-wrap">
+                <div class="seat-status">
+                    <div>사용현황</div>
+                    <div>11 / 50</div>
+                </div>
+                <p class="seat-text">청소완료한 자리는 쓰레기통 아이콘을 클릭해서 지워주세요</p>
+                <div class="seat-container">
+                    <div class="seat-left">
+                        <!-- 25개 좌석 -->
+                    </div>
+                    <div class="seat-right">
+                        <!-- 25개 좌석 -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section admin-order">
+            <div class="order-wrap">
+                <ul class="order-ul">
+                    <li>
+                        <div class="order-numBox">No.<br><strong class="order-num">2</strong></div>
+                        <div class="order-menuBox">
+                            <div>진라면, 콜라</div>
+                            <div class="order-bot">
+                                <div>5,000원 (카드)</div>
+                                <div class="order-btns">
+                                    <button class="ready on">준비중</button>
+                                    <button class="finish">전달완료</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="order-numBox">No.<br><strong class="order-num">41</strong></div>
+                        <div class="order-menuBox">
+                            <div>치킨마요덮밥</div>
+                            <div class="order-bot">
+                                <div>7,000원 (카드)</div>
+                                <div class="order-btns">
+                                    <button class="ready on">준비중</button>
+                                    <button class="finish">전달완료</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="order-numBox">No.<br><strong class="order-num">26</strong></div>
+                        <div class="order-menuBox">
+                            <div class="order-menu">아이스티(2)</div>
+                            <div class="order-bot">
+                                <div>4,000원 (현금)</div>
+                                <div class="order-btns">
+                                    <button class="ready">준비중</button>
+                                    <button class="finish">전달완료</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="order-numBox">No.<br><strong class="order-num">16</strong></div>
+                        <div class="order-menuBox">
+                            <div class="order-menu">김치볶음밥, 감자튀김</div>
+                            <div class="order-bot">
+                                <div>7,500원 (카드)</div>
+                                <div class="order-btns">
+                                    <button class="ready">준비중</button>
+                                    <button class="finish">전달완료</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="../../js/admin/main.js"></script>
+</body>
+
+</html>

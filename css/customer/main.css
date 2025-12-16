@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.customer-main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/img/pc_background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    position: relative;
+}
+
+/* 헤더 */
+header {
+    padding-right: 100px;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 0 0 20px #F48FB1;
+}
+
+.main-info {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-info {
+    font-size: 28px;
+}
+
+.main-payInfo {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-useTime {
+    border-right: 1px solid #aaa;
+    padding-right: 30px;
+}
+
+#main-name {
+    font-size: 30px;
+}
+
+#main-useTime,
+#main-usePay {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+/* 메인 버튼 메뉴 */
+.main-mainbtn-box {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.main-mainbtn-three {
+    display: flex;
+    gap: 60px;
+}
+
+.main-mainbtn-three button {
+    padding: 15px 30px;
+    font-size: 35px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #f8d3df, #F48FB1);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    box-shadow: 0 0 20px rgba(244, 143, 177, 0.7)
+}
+
+.main-mainbtn-three button:hover {
+    background: linear-gradient(130deg, #f8d3df, #F48FB1);
+    box-shadow: 0 0 60px rgba(244, 143, 177, 0.7);
+}
+
+.main-mainbtn-power {
+    padding: 5px 20px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ddd;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.fa-power-off {
+    color: rgb(202, 29, 29);
+}
+
+.main-mainbtn-power:hover {
+    background-color: #ccc;
+}
+
+/* 도움말 */
+.main-help {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 350px;
+    height: 440px;
+    background: linear-gradient(to bottom, #4b4e58, #212225);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 0 10px rgba(75, 78, 88, 1);
+}
+
+.main-help-seat {
+    width: 90%;
+    height: 10%;
+    border-bottom: 1px solid #ccc;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.main-help-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-help-btnBox {
+    display: grid;
+    grid-template-areas: 'a b c c c '
+        'd d d e e'
+        'f g h h h';
+    gap: 10px;
+}
+
+.helpBtn {
+    padding: 20px;
+    border-radius: 10PX;
+    border: none;
+    cursor: pointer;
+    background-color: #d86e91;
+    color: white;
+    font-weight: 450;
+    transition: all linear 0.3s;
+}
+
+.helpBtn:hover {
+    background-color: #dd7b9cf3;
+    transform: scale(1.05);
+}
+
+.helpBtn0 {
+    grid-area: a;
+}
+
+.helpBtn1 {
+    grid-area: b;
+}
+
+.helpBtn2 {
+    grid-area: c;
+}
+
+.helpBtn3 {
+    grid-area: d;
+}
+
+.helpBtn4 {
+    grid-area: e;
+}
+
+.helpBtn5 {
+    grid-area: f;
+}
+
+.helpBtn6 {
+    grid-area: g;
+}
+
+.helpBtn7 {
+    grid-area: h;
+}
+
+/* 모달열릴때 오버레이 */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px);
+    z-index: 9;
+    display: none;
+}
+
+
+/* 도움말 모달 */
+.help-modal {
+    background-color: #eee;
+    color: #222;
+    border-radius: 10px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    display: none;
+    z-index: 10;
+}
+
+.help-xBtn {
+    color: #F48FB1;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+#help-fetch {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.help-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.help-options label {
+    white-space: pre;
+}
+
+
+.help-submit {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 20px;
+    background-color: #F48FB1;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}

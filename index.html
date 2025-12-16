@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seunga PC - 메인</title>
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+
+</head>
+
+<body>
+
+    <div class="video-container">
+        <div class="top-overlay">
+            <div class="logo">Seunga PC</div>
+            <div class="seat">No.<span id="seat-number"></span></div>
+        </div>
+        <video src="assets/video/main.mp4" autoplay muted loop playsinline></video>
+    </div>
+    <div class="button-box">
+        <button id="customer-btn">손님으로 입장하기</button>
+        <button id="admin-btn">관리자로 입장하기</button>
+    </div>
+
+    <!-- 손님 가입 모달 -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <h2 class="modal-title">
+                손님 가입
+                <span class="close">&times;</span>
+            </h2>
+            <div id="signup-form">
+                <label>이름*<input id="customer-name" type="text" name="name"></label>
+                <label>생년월일<input id="customer-birth" type="date" name="birthday"></label>
+                <label>비밀번호*<input id="customer-pass" type="password" name="password"></label>
+                <button id="signup-submit">가입 완료</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 관리자 로그인 모달 -->
+    <div id="admin-modal" class="modal">
+        <div class="modal-content">
+            <h2 class="modal-title">
+                관리자 로그인
+                <span class="close">&times;</span>
+            </h2>
+            <p class="admin-hint">비밀번호는 admin123 입니다</p>
+            <div id="admin-form">
+                <input id="admin-pass" type="password" name="adminPass" placeholder="비밀번호를 입력하세요" required>
+                <button id="admin-submit">들어가기</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

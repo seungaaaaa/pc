@@ -1,0 +1,196 @@
+.logo {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: white;
+    text-shadow: 0 0 20px #F48FB1;
+    max-width: 200px;
+}
+
+header {
+    padding: 0 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 50px 20px 0;
+}
+
+nav>button {
+    padding: 8px 18px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ebbbcc;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.seatBtn.on,
+.orderBtn.on {
+    background-color: #f48fb1;
+    transform: scale(1.1);
+}
+
+/* 좌석 */
+.section {
+    display: none;
+}
+
+.admin-seat {
+    margin-top: 50px;
+}
+
+.section.on {
+    display: flex;
+}
+
+.seat-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.seat-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #ccc;
+    font-size: 18px;
+}
+
+.seat-text {
+    color: #999;
+    font-weight: 350;
+}
+
+.seat-status div:last-child {
+    font-size: 20px;
+    color: #fef;
+}
+
+.seat-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    width: 100vw;
+}
+
+.seat-left,
+.seat-right {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.lseats,
+.rseats {
+    width: 150px;
+    height: 100px;
+    background-color: #F48FB1;
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+}
+
+/* 사용중인 좌석 */
+.seat-using {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #555;
+    font-weight: 600;
+}
+
+.used {
+    background-color: #ccb7c3;
+}
+
+/* 청소할 좌석 */
+.seat-cleanBox {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+/* 주문섹션 */
+.admin-order {
+    margin-top: 15px;
+}
+
+.order-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f48fb1;
+    border-radius: 5px;
+}
+
+.order-wrap>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.order-wrap>ul>li {
+    background-color: #eee;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.order-numBox {
+    color: #df4377;
+}
+
+.order-num {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.order-menuBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.order-bot {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ebbbcc;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.order-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.ready,
+.finish {
+    padding: 8px 20px;
+    border: 0;
+    border: 2px solid #F48FB1;
+    border-radius: 9999px;
+    font-size: 16px;
+}
+
+.ready.on,
+.finish.on {
+    background-color: #F48FB1;
+}

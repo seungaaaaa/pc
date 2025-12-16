@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/customer/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>손님메인</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="customer-main-container">
+        <header>
+            <div class="logo">Seunga PC</div>
+            <div class="main-info">
+                <div><span id="main-name">OO</span>님, 환영합니다!</div>
+                <div class="main-payInfo">
+                    <div class="main-useTime">현재 사용 시간: <span id="main-useTime"></span></div>
+                    <div>사용 요금: <span id="main-usePay"></span>원</div>
+                </div>
+            </div>
+        </header>
+        <div class="main-mainbtn-box">
+            <div class="main-mainbtn-three">
+                <button id="mainbtn-food">
+                    <div class="icon">🍜</div>
+                    <div id="main-menu">음식 주문</div>
+                </button>
+                <button id="mainbtn-order">
+                    <div class="icon">🧾</div>
+                    <div id="main-order-history">주문 내역</div>
+                </button>
+                <button id="mainbtn-game">
+                    <div class="icon">🎮</div>
+                    <div id="main-game">게임 정보</div>
+                </button>
+            </div>
+            <button class="main-mainbtn-power"><i class="fa-solid fa-power-off"></i>&nbsp;&nbsp;사용종료</button>
+        </div>
+
+        <!-- 도움말 -->
+        <div class="main-help">
+            <div class="main-help-seat">No.&nbsp;<span id="help-seat"> 00</span></div>
+            <div class="main-help-content">
+                <h2>도와 주세요!</h2>
+                <div class="main-help-btnBox">
+                    <!-- -->
+                </div>
+            </div>
+        </div>
+
+        <div class="help-modal">
+            <div id="help-fetch">
+                <!-- <h2>키보드</h2>
+                <div class="help-xBtn">&times;</div>
+                <div class="help-options">
+                    <label>
+                        <input type="radio" name="help-sub" value="1" />
+                        
+                    </label>
+                    <label>
+                        <input type="radio" name="help-sub" value="1" />
+                        
+                    </label>
+                    <label>
+                        <input type="radio" name="help-sub" value="1" />
+                        
+                    </label>
+                </div> -->
+            </div>
+            <button class="help-submit">요청하기</button>
+        </div>
+
+    </div>
+
+    <script src="/js/customer/main.js"></script>
+</body>
+
+
+</html>
