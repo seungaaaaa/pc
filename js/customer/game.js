@@ -42,5 +42,5 @@ loadGameData()
 
 // x버튼
 document.querySelector('.close').addEventListener('click', () => {
-    location.href = './main.html'
+    location.href = '../../pages/customer/main.html'
 })

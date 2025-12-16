@@ -1,6 +1,6 @@
 let logo = document.querySelector('.logo')
 logo.addEventListener('click', () => {
-    location.href = "/index.html"
+    location.href = "../../index.html"
 })
 
 // 네비버튼
