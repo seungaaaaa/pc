@@ -37,15 +37,15 @@ setInterval(() => {
 let logo = document.querySelector('.logo')
 let power = document.querySelector('.main-mainbtn-power')
 logo.addEventListener('click', () => {
-    location.href = "../../index.html"
+    location.href = "index.html"
 })
 power.addEventListener('click', () => {
-    location.href = "../../index.html"
+    location.href = "index.html"
 })
 
 // 도움말 JSON 가져오기
 async function getHelpData() {
-    let res = await fetch('../../json/help.json')
+    let res = await fetch('json/help.json')
     let data = await res.json()
 
     let overlay = document.querySelector('.overlay')
@@ -57,7 +57,7 @@ async function getHelpData() {
     // 요청하기 버튼
     submitBtn.addEventListener('click', () => {
         alert('요청이 완료 되었습니다')
-        location.href = '../../pages.coustomer/main.html'
+        location.href = 'pages.coustomer/main.html'
     })
 
     // 도움말 버튼 만들기
@@ -114,15 +114,15 @@ getHelpData()
 
 // 음식 주문 버튼
 let menuBtn = document.getElementById('mainbtn-food')
-menuBtn.addEventListener('click', () => location.href = '../../pages/customer/menu.html')
+menuBtn.addEventListener('click', () => location.href = 'pages/customer/menu.html')
 
 // 주문 내역 버튼
 let orderBtn = document.getElementById('mainbtn-order')
-orderBtn.addEventListener('click', () => location.href = '../..//pages/customer/order-history.html')
+orderBtn.addEventListener('click', () => location.href = 'pages/customer/order-history.html')
 
 // 내 정보 버튼
 let gameBtn = document.getElementById('mainbtn-game')
-gameBtn.addEventListener('click', () => location.href = '../../pages/customer/game.html')
+gameBtn.addEventListener('click', () => location.href = 'pages/customer/game.html')
 
 
 

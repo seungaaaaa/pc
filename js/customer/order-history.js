@@ -43,5 +43,5 @@ total.textContent = Number(totalPrice).toLocaleString()
 
 // x버튼
 document.querySelector('.close').addEventListener('click', () => {
-    location.href = '../../pages/customer/main.html'
+    location.href = 'pages/customer/main.html'
 })

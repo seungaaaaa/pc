@@ -3,7 +3,7 @@
 .customer-main-container {
     width: 100vw;
     height: 100vh;
-    background-image: url(../../assets/img/pc_background.jpg);
+    background-image: url(assets/img/pc_background.jpg);
     background-position: center;
     background-size: cover;
     color: white;

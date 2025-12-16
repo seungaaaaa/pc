@@ -1,6 +1,6 @@
 // 게임 제이슨 가져오기
 let loadGameData = async function () {
-    const res = await fetch('../../json/game.json')
+    const res = await fetch('json/game.json')
     const datas = await res.json()
     console.log(datas);
 
@@ -42,5 +42,5 @@ loadGameData()
 
 // x버튼
 document.querySelector('.close').addEventListener('click', () => {
-    location.href = '../../pages/customer/main.html'
+    location.href = 'pages/customer/main.html'
 })

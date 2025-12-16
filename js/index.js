@@ -66,7 +66,7 @@ document.getElementById('signup-submit').addEventListener('click', (e) => {
     birthInput.value = ''
     passInput.value = ''
 
-    location.href = '../../pages/customer/main.html'
+    location.href = 'pages/customer/main.html'
 })
 
 // 관리자 로그인 모달
@@ -93,7 +93,7 @@ document.getElementById('admin-submit').addEventListener('click', (e) => {
         adminModal.style.display = 'none'
         passInput.value = ""
 
-        location.href = '../../pages/admin/main.html'
+        location.href = 'pages/admin/main.html'
     } else {
         alert("비밀번호가 틀렸습니다.")
     }
