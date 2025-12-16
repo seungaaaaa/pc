@@ -104,8 +104,8 @@ let howpay = localStorage.getItem('howpay')
 let seatNumber = localStorage.getItem('seatNumber')
 let totalPrice = Number(localStorage.getItem('totalPrice'))
 let menuList = localStorage.getItem('menuList')
+
 const menus = JSON.parse(localStorage.getItem('menuList'))
-console.log(menus)
 const menuTexts = menus.map(item => {
     if (item.qty > 1) {
         return `${item.menuName}(${item.qty})`
@@ -134,7 +134,7 @@ if (menuList) {
 
     let menu = document.createElement('div')
     menu.className = 'order-menu'
-    menu.innerHTML = menuTexts.join(' ')
+    menu.innerHTML = menuTexts.join(', ')
     menuBox.appendChild(menu)
 
     let botBox = document.createElement('div')
