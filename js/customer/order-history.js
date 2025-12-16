@@ -2,7 +2,7 @@
 let menuList = JSON.parse(localStorage.getItem('menuList')) || []
 let totalPrice = localStorage.getItem('totalPrice')
 let howpay = localStorage.getItem('howpay')
-let status = localStorage.getItem('status')
+let orderStatus = localStorage.getItem('orderStatus')
 
 // 주문내역 만들기
 let main = document.querySelector('main')
@@ -34,7 +34,11 @@ menuList.forEach((item) => {
     priceBox.appendChild(howpayDiv)
 
     let statusDiv = document.createElement('div')
-    statusDiv.textContent = localStorage.getItem('orderStatus')
+    if (!orderStatus) {
+        statusDiv.textContent = '대기중'
+    } else {
+        statusDiv.textContent = localStorage.getItem('orderStatus')
+    }
     box.appendChild(statusDiv)
 })
 

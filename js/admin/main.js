@@ -104,7 +104,6 @@ let howpay = localStorage.getItem('howpay')
 let seatNumber = localStorage.getItem('seatNumber')
 let totalPrice = Number(localStorage.getItem('totalPrice'))
 let menuList = localStorage.getItem('menuList')
-
 const menus = JSON.parse(localStorage.getItem('menuList'))
 const menuTexts = menus.map(item => {
     if (item.qty > 1) {
