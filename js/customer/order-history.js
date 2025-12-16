@@ -24,8 +24,9 @@ menuList.forEach((item) => {
     let priceBox = document.createElement('div')
     box.appendChild(priceBox)
 
+    let multi = Number(item.menuprice * item.qty)
     let price = document.createElement('span')
-    price.textContent = item.menuprice.toLocaleString() + '원'
+    price.textContent = multi.toLocaleString() + '원'
     priceBox.appendChild(price)
 
     let howpayDiv = document.createElement('span')

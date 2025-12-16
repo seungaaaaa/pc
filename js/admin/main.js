@@ -134,7 +134,7 @@ if (menuList) {
 
     let menu = document.createElement('div')
     menu.className = 'order-menu'
-    menu.innerHTML = menuTexts.join()
+    menu.innerHTML = menuTexts.join(' ')
     menuBox.appendChild(menu)
 
     let botBox = document.createElement('div')
